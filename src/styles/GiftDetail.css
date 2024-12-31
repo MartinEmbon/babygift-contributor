@@ -1,0 +1,166 @@
+/* Container for the GiftDetail page */
+.gift-detail-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Left Side Container */
+  .left-side {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Gift Image Styles */
+  .gift-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Gift Information */
+  .gift-info {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .gift-name {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .gift-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .gift-price,
+  .gift-category {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Gift Contribution Input */
+  .gift-input {
+    width: 80%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  .button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+    max-height: 95vh;
+    overflow-y: auto;
+    border-right: 1px solid #444;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navbar-gifts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .navbar-gift {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .navbar-gift:hover {
+    transform: scale(1.05);
+  }
+  
+  .navbar-gift-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 1rem;
+  }
+  
+  .navbar-gift-name {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .navbar-button {
+    margin-top: auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Checkout Navbar Styles */
+  .checkout-navbar {
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: -2px 0px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .checkout-navbar-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4caf50;
+  }
+  

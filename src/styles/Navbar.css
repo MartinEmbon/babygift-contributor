@@ -1,0 +1,75 @@
+/* Main Navbar styles */
+.navbar-container {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-wrapper {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-left, .navbar-center, .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-input {
+    padding: 5px;
+    border: 1px solid lightgray;
+  }
+  
+  .search-icon {
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  .navbar-logo {
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    justify-content: flex-end;
+  }
+  
+  .navbar-menu-item {
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-cart {
+    position: relative;
+  }
+  
+  .navbar-badge {
+    position: relative;
+  }
+  
+  .badge-content {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .cart-icon {
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+  }
+  

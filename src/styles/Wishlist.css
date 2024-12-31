@@ -1,0 +1,144 @@
+/* Wishlist.css */
+
+/* General container setup */
+.wishlist-container {
+    padding: 2rem;
+    background-color: var(--background-color); /* Ensure a nice background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Title styling */
+  .wishlist-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Gift grid for the items */
+  .gift-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Card for each gift item */
+  .gift-card {
+    background: var(--secondary-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .gift-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image styling for each gift card */
+  .gift-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Gift details area */
+  .gift-details {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Gift name styling */
+  .gift-name {
+    font-size: 1.2rem;
+    color: var(--font-color);
+    margin: 0.5rem 0;
+  }
+  
+  /* Description text styling */
+  .gift-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  /* Price text styling */
+  .gift-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Category text styling */
+  .gift-category {
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
+  /* Checkout Bar Styles */
+  .checkout-bar {
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .checkout-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-text {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .checkout-count {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .checkout-button {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Cart status section */
+  .cart-status {
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--font-color);
+  }
+  
+  /* Variables for consistency */
+  :root {
+    --primary-color: #4caf50;
+    --secondary-color: #ffffff;
+    --background-color: #f4f4f4;
+    --font-color: #333;
+    --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+  }
+  
